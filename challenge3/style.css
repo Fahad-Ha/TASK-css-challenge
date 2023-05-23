@@ -1,11 +1,26 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  overflow: scroll;
 }
 .head {
+  position: sticky;
+  top: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  background-color: #9db2bf;
+  color: #27374d;
+}
+
+.list {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: #dde6ed;
+  overflow: scroll;
 }
 
 /* This is a gift - Does not need editing */
