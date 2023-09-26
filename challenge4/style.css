@@ -33,20 +33,21 @@ p,
   z-index: -1;
 }
 .movie-details-container {
+  position: relative;
 }
 .descriptions {
-  position: relative;
+  position: absolute;
   float: left;
-  top: -100px;
+  bottom: 0;
   padding-left: 15px;
 }
 
 /*A gift from us!*/
 .movie-shadow {
+  bottom: 0;
   position: absolute;
-  height: 45vh;
-  width: 40vh;
-  top: 180px;
+  height: 40vh;
+  width: 100%;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
